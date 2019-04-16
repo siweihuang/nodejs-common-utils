@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-common-utils",
+  "version": "1.0.0",
+  "description": "Common Node.js scripts that will be useful for devlopment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siweihuang/nodejs-common-utils.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "Seaway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siweihuang/nodejs-common-utils/issues"
+  },
+  "homepage": "https://github.com/siweihuang/nodejs-common-utils#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "uuid": "^3.3.2"
+  }
+}

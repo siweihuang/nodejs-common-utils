@@ -30,3 +30,19 @@ console.log("todayDateStringUnix:" + todayDateStringUnix)
 // Get yesterday year month day
 var yesterdatDateString = moment().subtract(1, 'd').format('YYYY-MM-DD')
 console.log("yesterdatDateString:" + yesterdatDateString)
+
+// Get week day short name
+var weekDayNameShort =  moment().format('ddd');
+console.log("weekDayNameShort:" + weekDayNameShort);
+
+// Get week day full name
+var weekDayName =  moment().format('dddd');
+console.log("weekDayName:" + weekDayName);
+
+// Gets the day of the week. Sunday as 0 and Saturday as 6
+console.log("Day of week: " + moment().weekday());
+console.log("Day of month: " + moment().date());
+console.log("Day of year: " + moment().dayOfYear());
+console.log("Week of year: " + moment().week());
+console.log("Quarter of year: " + moment().quarter());
+console.log("Weeks in year: " + moment().weeksInYear());
